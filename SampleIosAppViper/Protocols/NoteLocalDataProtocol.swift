@@ -7,3 +7,7 @@
 //
 
 import Foundation
+
+protocol NoteLocalDataProtocol {
+    func getAll() -> [(title: String, description: String)]
+}

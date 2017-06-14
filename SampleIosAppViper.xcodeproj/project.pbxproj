@@ -7,23 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		86D5DE0A1EF06CF500E7C470 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5DE091EF06CF500E7C470 /* AppDelegate.swift */; };
-		86D5DE0C1EF06CF500E7C470 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D5DE0B1EF06CF500E7C470 /* ViewController.swift */; };
-		86D5DE0F1EF06CF500E7C470 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86D5DE0D1EF06CF500E7C470 /* Main.storyboard */; };
-		86D5DE121EF06CF600E7C470 /* SampleIosAppViper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86D5DE101EF06CF600E7C470 /* SampleIosAppViper.xcdatamodeld */; };
-		86D5DE141EF06CF700E7C470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86D5DE131EF06CF700E7C470 /* Assets.xcassets */; };
-		86D5DE171EF06CF700E7C470 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86D5DE151EF06CF700E7C470 /* LaunchScreen.storyboard */; };
+		86A8F3C11EF0DDEF00635048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86A8F3A61EF0DDEF00635048 /* Assets.xcassets */; };
+		86A8F3C21EF0DDEF00635048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A8F3A71EF0DDEF00635048 /* LaunchScreen.storyboard */; };
+		86A8F3C31EF0DDEF00635048 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86A8F3A91EF0DDEF00635048 /* Main.storyboard */; };
+		86A8F3C41EF0DDEF00635048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8F3AC1EF0DDEF00635048 /* AppDelegate.swift */; };
+		86A8F3C51EF0DDEF00635048 /* NoteLocalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8F3AE1EF0DDEF00635048 /* NoteLocalData.swift */; };
+		86A8F3C61EF0DDEF00635048 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86A8F3B01EF0DDEF00635048 /* Info.plist */; };
+		86A8F3C71EF0DDEF00635048 /* NoteInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8F3B21EF0DDEF00635048 /* NoteInteractor.swift */; };
+		86A8F3C81EF0DDEF00635048 /* NotePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8F3B41EF0DDEF00635048 /* NotePresenter.swift */; };
+		86A8F3C91EF0DDEF00635048 /* NoteFormProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8F3B61EF0DDEF00635048 /* NoteFormProtocol.swift */; };
+		86A8F3CA1EF0DDEF00635048 /* NoteInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8F3B71EF0DDEF00635048 /* NoteInteractorProtocol.swift */; };
+		86A8F3CB1EF0DDEF00635048 /* NoteLocalDataProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8F3B81EF0DDEF00635048 /* NoteLocalDataProtocol.swift */; };
+		86A8F3CC1EF0DDEF00635048 /* NotePresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8F3B91EF0DDEF00635048 /* NotePresenterProtocol.swift */; };
+		86A8F3CD1EF0DDEF00635048 /* NoteRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8F3BA1EF0DDEF00635048 /* NoteRouterProtocol.swift */; };
+		86A8F3CE1EF0DDEF00635048 /* NoteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8F3BC1EF0DDEF00635048 /* NoteRouter.swift */; };
+		86A8F3CF1EF0DDEF00635048 /* SampleIosAppViper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86A8F3BD1EF0DDEF00635048 /* SampleIosAppViper.xcdatamodeld */; };
+		86A8F3D01EF0DDEF00635048 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8F3C01EF0DDEF00635048 /* NoteTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86A8F3A61EF0DDEF00635048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86A8F3A81EF0DDEF00635048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86A8F3AA1EF0DDEF00635048 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86A8F3AC1EF0DDEF00635048 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86A8F3AE1EF0DDEF00635048 /* NoteLocalData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteLocalData.swift; sourceTree = "<group>"; };
+		86A8F3B01EF0DDEF00635048 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86A8F3B21EF0DDEF00635048 /* NoteInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteInteractor.swift; sourceTree = "<group>"; };
+		86A8F3B41EF0DDEF00635048 /* NotePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotePresenter.swift; sourceTree = "<group>"; };
+		86A8F3B61EF0DDEF00635048 /* NoteFormProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteFormProtocol.swift; sourceTree = "<group>"; };
+		86A8F3B71EF0DDEF00635048 /* NoteInteractorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteInteractorProtocol.swift; sourceTree = "<group>"; };
+		86A8F3B81EF0DDEF00635048 /* NoteLocalDataProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteLocalDataProtocol.swift; sourceTree = "<group>"; };
+		86A8F3B91EF0DDEF00635048 /* NotePresenterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotePresenterProtocol.swift; sourceTree = "<group>"; };
+		86A8F3BA1EF0DDEF00635048 /* NoteRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteRouterProtocol.swift; sourceTree = "<group>"; };
+		86A8F3BC1EF0DDEF00635048 /* NoteRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteRouter.swift; sourceTree = "<group>"; };
+		86A8F3BE1EF0DDEF00635048 /* SampleIosAppViper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SampleIosAppViper.xcdatamodel; sourceTree = "<group>"; };
+		86A8F3C01EF0DDEF00635048 /* NoteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
 		86D5DE061EF06CF400E7C470 /* SampleIosAppViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleIosAppViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		86D5DE091EF06CF500E7C470 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86D5DE0B1EF06CF500E7C470 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		86D5DE0E1EF06CF500E7C470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		86D5DE111EF06CF600E7C470 /* SampleIosAppViper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SampleIosAppViper.xcdatamodel; sourceTree = "<group>"; };
-		86D5DE131EF06CF700E7C470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		86D5DE161EF06CF700E7C470 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		86D5DE181EF06CF700E7C470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,10 +56,97 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86A8F3A51EF0DDEF00635048 /* SampleIosAppViper */ = {
+			isa = PBXGroup;
+			children = (
+				86A8F3A61EF0DDEF00635048 /* Assets.xcassets */,
+				86A8F3AB1EF0DDEF00635048 /* Common */,
+				86A8F3AD1EF0DDEF00635048 /* DataManager */,
+				86A8F3AF1EF0DDEF00635048 /* Entities */,
+				86A8F3B01EF0DDEF00635048 /* Info.plist */,
+				86A8F3B11EF0DDEF00635048 /* Interactor */,
+				86A8F3B31EF0DDEF00635048 /* Presenter */,
+				86A8F3B51EF0DDEF00635048 /* Protocols */,
+				86A8F3BB1EF0DDEF00635048 /* Router */,
+				86A8F3BF1EF0DDEF00635048 /* View */,
+			);
+			path = SampleIosAppViper;
+			sourceTree = "<group>";
+		};
+		86A8F3AB1EF0DDEF00635048 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				86A8F3AC1EF0DDEF00635048 /* AppDelegate.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		86A8F3AD1EF0DDEF00635048 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				86A8F3BD1EF0DDEF00635048 /* SampleIosAppViper.xcdatamodeld */,
+				86A8F3AE1EF0DDEF00635048 /* NoteLocalData.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		86A8F3AF1EF0DDEF00635048 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		86A8F3B11EF0DDEF00635048 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				86A8F3B21EF0DDEF00635048 /* NoteInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		86A8F3B31EF0DDEF00635048 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				86A8F3B41EF0DDEF00635048 /* NotePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		86A8F3B51EF0DDEF00635048 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				86A8F3B61EF0DDEF00635048 /* NoteFormProtocol.swift */,
+				86A8F3B71EF0DDEF00635048 /* NoteInteractorProtocol.swift */,
+				86A8F3B81EF0DDEF00635048 /* NoteLocalDataProtocol.swift */,
+				86A8F3B91EF0DDEF00635048 /* NotePresenterProtocol.swift */,
+				86A8F3BA1EF0DDEF00635048 /* NoteRouterProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		86A8F3BB1EF0DDEF00635048 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				86A8F3BC1EF0DDEF00635048 /* NoteRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		86A8F3BF1EF0DDEF00635048 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				86A8F3A71EF0DDEF00635048 /* LaunchScreen.storyboard */,
+				86A8F3A91EF0DDEF00635048 /* Main.storyboard */,
+				86A8F3C01EF0DDEF00635048 /* NoteTableViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		86D5DDFD1EF06CF400E7C470 = {
 			isa = PBXGroup;
 			children = (
-				86D5DE081EF06CF400E7C470 /* SampleIosAppViper */,
+				86A8F3A51EF0DDEF00635048 /* SampleIosAppViper */,
 				86D5DE071EF06CF400E7C470 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,20 +157,6 @@
 				86D5DE061EF06CF400E7C470 /* SampleIosAppViper.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		86D5DE081EF06CF400E7C470 /* SampleIosAppViper */ = {
-			isa = PBXGroup;
-			children = (
-				86D5DE091EF06CF500E7C470 /* AppDelegate.swift */,
-				86D5DE0B1EF06CF500E7C470 /* ViewController.swift */,
-				86D5DE0D1EF06CF500E7C470 /* Main.storyboard */,
-				86D5DE131EF06CF700E7C470 /* Assets.xcassets */,
-				86D5DE151EF06CF700E7C470 /* LaunchScreen.storyboard */,
-				86D5DE181EF06CF700E7C470 /* Info.plist */,
-				86D5DE101EF06CF600E7C470 /* SampleIosAppViper.xcdatamodeld */,
-			);
-			path = SampleIosAppViper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +219,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86D5DE171EF06CF700E7C470 /* LaunchScreen.storyboard in Resources */,
-				86D5DE141EF06CF700E7C470 /* Assets.xcassets in Resources */,
-				86D5DE0F1EF06CF500E7C470 /* Main.storyboard in Resources */,
+				86A8F3C61EF0DDEF00635048 /* Info.plist in Resources */,
+				86A8F3C31EF0DDEF00635048 /* Main.storyboard in Resources */,
+				86A8F3C11EF0DDEF00635048 /* Assets.xcassets in Resources */,
+				86A8F3C21EF0DDEF00635048 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,29 +233,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86D5DE121EF06CF600E7C470 /* SampleIosAppViper.xcdatamodeld in Sources */,
-				86D5DE0C1EF06CF500E7C470 /* ViewController.swift in Sources */,
-				86D5DE0A1EF06CF500E7C470 /* AppDelegate.swift in Sources */,
+				86A8F3CE1EF0DDEF00635048 /* NoteRouter.swift in Sources */,
+				86A8F3CD1EF0DDEF00635048 /* NoteRouterProtocol.swift in Sources */,
+				86A8F3C81EF0DDEF00635048 /* NotePresenter.swift in Sources */,
+				86A8F3C91EF0DDEF00635048 /* NoteFormProtocol.swift in Sources */,
+				86A8F3CB1EF0DDEF00635048 /* NoteLocalDataProtocol.swift in Sources */,
+				86A8F3CA1EF0DDEF00635048 /* NoteInteractorProtocol.swift in Sources */,
+				86A8F3C71EF0DDEF00635048 /* NoteInteractor.swift in Sources */,
+				86A8F3CF1EF0DDEF00635048 /* SampleIosAppViper.xcdatamodeld in Sources */,
+				86A8F3C41EF0DDEF00635048 /* AppDelegate.swift in Sources */,
+				86A8F3D01EF0DDEF00635048 /* NoteTableViewController.swift in Sources */,
+				86A8F3CC1EF0DDEF00635048 /* NotePresenterProtocol.swift in Sources */,
+				86A8F3C51EF0DDEF00635048 /* NoteLocalData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		86D5DE0D1EF06CF500E7C470 /* Main.storyboard */ = {
+		86A8F3A71EF0DDEF00635048 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				86D5DE0E1EF06CF500E7C470 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		86D5DE151EF06CF700E7C470 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				86D5DE161EF06CF700E7C470 /* Base */,
+				86A8F3A81EF0DDEF00635048 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		86A8F3A91EF0DDEF00635048 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86A8F3AA1EF0DDEF00635048 /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -306,17 +410,19 @@
 				86D5DE1D1EF06CF700E7C470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		86D5DE101EF06CF600E7C470 /* SampleIosAppViper.xcdatamodeld */ = {
+		86A8F3BD1EF0DDEF00635048 /* SampleIosAppViper.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				86D5DE111EF06CF600E7C470 /* SampleIosAppViper.xcdatamodel */,
+				86A8F3BE1EF0DDEF00635048 /* SampleIosAppViper.xcdatamodel */,
 			);
-			currentVersion = 86D5DE111EF06CF600E7C470 /* SampleIosAppViper.xcdatamodel */;
-			path = SampleIosAppViper.xcdatamodeld;
+			currentVersion = 86A8F3BE1EF0DDEF00635048 /* SampleIosAppViper.xcdatamodel */;
+			name = SampleIosAppViper.xcdatamodeld;
+			path = ../SampleIosAppViper.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

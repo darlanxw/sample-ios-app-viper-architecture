@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+class NoteRouter: NoteRouterProtocol {
+    func list() {
+        print("list")
+    }
+}
