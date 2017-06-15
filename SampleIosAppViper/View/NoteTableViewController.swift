@@ -9,6 +9,7 @@
 import UIKit
 
 class NoteTableViewController: UITableViewController {
+    @IBOutlet var btAddNote:UIBarButtonItem!
     var lstNotes:[(title: String, description: String)] = []
 
     override func viewDidLoad() {
@@ -40,6 +41,10 @@ class NoteTableViewController: UITableViewController {
         }
         
         return UITableViewCell()
+    }
+    
+    @IBAction func addNote() {
+        NoteRouter.init(noteTableViewController: self).goToAddNote()
     }
 }
 
