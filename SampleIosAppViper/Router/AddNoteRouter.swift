@@ -24,10 +24,6 @@ class AddNoteRouter {
         //define o presenter e interactor do addnote
     }
     
-    func goToAddNote() {
-        //tovi(AddNoteTableViewController, animated: true)
-    }
-    
     func present(navigation: UINavigationController?) {
         
         if let myNavigation = navigation {
