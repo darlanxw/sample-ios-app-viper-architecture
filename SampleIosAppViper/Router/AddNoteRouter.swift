@@ -27,7 +27,8 @@ class AddNoteRouter {
     func present(navigation: UINavigationController?) {
         
         if let myNavigation = navigation {
-            myNavigation.pushViewController(addNoteTableViewController, animated: true)
+            let view = R.storyboard.main.addNote()
+            myNavigation.pushViewController(view!, animated: true)
         }
     }
 }

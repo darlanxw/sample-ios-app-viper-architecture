@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		862D51CB1EF596C6007C16B2 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862D51CA1EF596C6007C16B2 /* R.generated.swift */; };
 		8693A0F51EF3178B00F6B88E /* AddNoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8693A0F41EF3178B00F6B88E /* AddNoteTableViewController.swift */; };
 		8693A0F71EF31A8C00F6B88E /* AddNoteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8693A0F61EF31A8C00F6B88E /* AddNoteRouter.swift */; };
 		8693A0FA1EF3834300F6B88E /* AddNoteCellTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8693A0F91EF3834300F6B88E /* AddNoteCellTitle.swift */; };
@@ -27,9 +28,12 @@
 		86A8F3CE1EF0DDEF00635048 /* NoteRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8F3BC1EF0DDEF00635048 /* NoteRouter.swift */; };
 		86A8F3CF1EF0DDEF00635048 /* SampleIosAppViper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86A8F3BD1EF0DDEF00635048 /* SampleIosAppViper.xcdatamodeld */; };
 		86A8F3D01EF0DDEF00635048 /* NoteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8F3C01EF0DDEF00635048 /* NoteTableViewController.swift */; };
+		A013AC546183D69D2CFDCF31 /* Pods_SampleIosAppViper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7E8D46F08F79F1B2D5EBD8A /* Pods_SampleIosAppViper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BCB00A4CD57949085423E44 /* Pods-SampleIosAppViper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleIosAppViper.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleIosAppViper/Pods-SampleIosAppViper.release.xcconfig"; sourceTree = "<group>"; };
+		862D51CA1EF596C6007C16B2 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		8693A0F41EF3178B00F6B88E /* AddNoteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteTableViewController.swift; sourceTree = "<group>"; };
 		8693A0F61EF31A8C00F6B88E /* AddNoteRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteRouter.swift; sourceTree = "<group>"; };
 		8693A0F91EF3834300F6B88E /* AddNoteCellTitle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNoteCellTitle.swift; sourceTree = "<group>"; };
@@ -51,6 +55,8 @@
 		86A8F3BE1EF0DDEF00635048 /* SampleIosAppViper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SampleIosAppViper.xcdatamodel; sourceTree = "<group>"; };
 		86A8F3C01EF0DDEF00635048 /* NoteTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteTableViewController.swift; sourceTree = "<group>"; };
 		86D5DE061EF06CF400E7C470 /* SampleIosAppViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleIosAppViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D86488E586E32028F23FC37D /* Pods-SampleIosAppViper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleIosAppViper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SampleIosAppViper/Pods-SampleIosAppViper.debug.xcconfig"; sourceTree = "<group>"; };
+		F7E8D46F08F79F1B2D5EBD8A /* Pods_SampleIosAppViper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleIosAppViper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,15 +64,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A013AC546183D69D2CFDCF31 /* Pods_SampleIosAppViper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E05A2DAA7C1A19D0EA4921E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7E8D46F08F79F1B2D5EBD8A /* Pods_SampleIosAppViper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CAB2D91EABFE571CA0CC96C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D86488E586E32028F23FC37D /* Pods-SampleIosAppViper.debug.xcconfig */,
+				0BCB00A4CD57949085423E44 /* Pods-SampleIosAppViper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		86A8F3A51EF0DDEF00635048 /* SampleIosAppViper */ = {
 			isa = PBXGroup;
 			children = (
+				862D51CA1EF596C6007C16B2 /* R.generated.swift */,
 				86A8F3A61EF0DDEF00635048 /* Assets.xcassets */,
 				86A8F3AB1EF0DDEF00635048 /* Common */,
 				86A8F3AD1EF0DDEF00635048 /* DataManager */,
@@ -160,6 +185,8 @@
 			children = (
 				86A8F3A51EF0DDEF00635048 /* SampleIosAppViper */,
 				86D5DE071EF06CF400E7C470 /* Products */,
+				7CAB2D91EABFE571CA0CC96C /* Pods */,
+				1E05A2DAA7C1A19D0EA4921E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,9 +205,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86D5DE1B1EF06CF700E7C470 /* Build configuration list for PBXNativeTarget "SampleIosAppViper" */;
 			buildPhases = (
+				AE0F610112A797E74CAE9886 /* [CP] Check Pods Manifest.lock */,
+				862D51C91EF59638007C16B2 /* ShellScript */,
 				86D5DE021EF06CF400E7C470 /* Sources */,
 				86D5DE031EF06CF400E7C470 /* Frameworks */,
 				86D5DE041EF06CF400E7C470 /* Resources */,
+				D217B2239C0E9A59CB59DDEA /* [CP] Embed Pods Frameworks */,
+				8E424759A58AD84A5BC2AA45 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -240,6 +271,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		862D51C91EF59638007C16B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" \"$SRCROOT\"";
+		};
+		8E424759A58AD84A5BC2AA45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleIosAppViper/Pods-SampleIosAppViper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE0F610112A797E74CAE9886 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D217B2239C0E9A59CB59DDEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SampleIosAppViper/Pods-SampleIosAppViper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86D5DE021EF06CF400E7C470 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -253,6 +345,7 @@
 				86A8F3CB1EF0DDEF00635048 /* NoteLocalDataProtocol.swift in Sources */,
 				86A8F3CA1EF0DDEF00635048 /* NoteInteractorProtocol.swift in Sources */,
 				86A8F3C71EF0DDEF00635048 /* NoteInteractor.swift in Sources */,
+				862D51CB1EF596C6007C16B2 /* R.generated.swift in Sources */,
 				86A8F3CF1EF0DDEF00635048 /* SampleIosAppViper.xcdatamodeld in Sources */,
 				8693A0FA1EF3834300F6B88E /* AddNoteCellTitle.swift in Sources */,
 				8693A0FC1EF3839600F6B88E /* AddNoteCellDescription.swift in Sources */,
@@ -383,6 +476,7 @@
 		};
 		86D5DE1C1EF06CF700E7C470 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D86488E586E32028F23FC37D /* Pods-SampleIosAppViper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DDE9FAS672;
@@ -396,6 +490,7 @@
 		};
 		86D5DE1D1EF06CF700E7C470 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BCB00A4CD57949085423E44 /* Pods-SampleIosAppViper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DDE9FAS672;
